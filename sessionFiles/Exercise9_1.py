@@ -54,14 +54,14 @@
 # print("*"*50)
 
 #using continue
-current_number = 0
-while current_number < 10:
-    current_number += 1
-    if current_number % 2 == 0:
-        print(str(current_number) + " is an even number!")
-        continue
-        print("I love python")
-    print(current_number)
+# current_number = 0
+# while current_number < 10:
+#     current_number += 1
+#     if current_number % 2 == 0:
+#         print(str(current_number) + " is an even number!")
+#         continue
+#         print("I love python")
+#     print(current_number)
 
-print("\n\nEnd of program!")
-print("*"*50)
+# print("\n\nEnd of program!")
+# print("*"*50)
