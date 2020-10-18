@@ -20,16 +20,16 @@
 # for line in lines:
 #     print(line.strip())
 
-#working with file contents
-filename = '..\..\data\pi_digits.txt'
-with open(filename) as file_object:
-    lines = file_object.readlines()
-pi_string = ''
-for line in lines:
-    pi_string += line.rstrip()
+# #working with file contents
+# filename = '..\..\data\pi_digits.txt'
+# with open(filename) as file_object:
+#     lines = file_object.readlines()
+# pi_string = ''
+# for line in lines:
+#     pi_string += line.rstrip()
 
-print(pi_string)
-print(len(pi_string))
+# print(pi_string)
+# print(len(pi_string))
 
 # #large files
 # filename = 'pi_million_digits.txt'
@@ -38,8 +38,8 @@ print(len(pi_string))
 # pi_string = ''
 # for line in lines:
 #     pi_string += line.strip()
-#     print(pi_string[:52] + "...")
-#     print(len(pi_string))
+# print(pi_string[:52] + "...")
+# print(len(pi_string))
 
 
 # filename = 'pi_million_digits.txt'
@@ -48,17 +48,19 @@ print(len(pi_string))
 # pi_string = ''
 # for line in lines:
 #     pi_string += line.rstrip()
-#     birthday = input("Enter your birthday, in the form mmddyy: ")
-#     if birthday in pi_string:
+
+# birthday = input("Enter your birthday, in the form mmddyy: ")
+
+# if birthday in pi_string:
 #         print("Your birthday appears in the first million digits of pi!")
-#     else:
+# else:
 #         print("Your birthday does not appear in the first million digits of pi.")
 
 
 # #writing to file
 # #write a empty file
 # filename = 'programming.txt'
-# message.py
+
 # with open(filename, 'w') as file_object:
 #     file_object.write("I love programming.")
 
@@ -66,14 +68,14 @@ print(len(pi_string))
 # #write multiple lines
 # filename = 'programming.txt'
 # with open(filename, 'w') as file_object:
-#     file_object.write("I love programming.")
+#     file_object.write("I love python programming an nodejs programming.")
 #     file_object.write("I love creating new games.")
 
-# #appending to a file
-# filename = 'programming.txt'
+#appending to a file
+filename = 'programming.txt'
 
-# with open(filename, 'a') as file_object:
-#     file_object.write("I also love finding meaning in large datasets.\n")
-#     file_object.write("I love creating apps that can run in a browser.\n")
+with open(filename, 'a') as file_object:
+    file_object.write("\n\tI also love finding meaning in large datasets.\n")
+    file_object.write("\tI love creating apps that can run in a browser.\n")
 
 
